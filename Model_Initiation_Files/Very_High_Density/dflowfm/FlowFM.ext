@@ -1,0 +1,36 @@
+
+QUANTITY=frictioncoefficient
+FILENAME=AC_Final_Model_Jan2015_rgh.xyz
+FILETYPE=7
+METHOD=5
+OPERAND=O
+
+QUANTITY =windxy
+FILENAME =AC_Final_Model_Jan2015.wnd
+FILETYPE =2
+METHOD =1
+OPERAND =+
+
+
+QUANTITY     =stemdensity
+FILENAME     =all_islands.pol
+FILETYPE     =10
+METHOD       =4
+OPERAND      =O
+VALUE        =120
+
+QUANTITY     =stemdiameter
+FILENAME     =all_islands.pol
+FILETYPE     =10
+METHOD       =4
+OPERAND      =O
+VALUE        =0.01
+
+QUANTITY     =stemheight
+FILENAME     =all_islands.pol
+FILETYPE     =10
+METHOD       =4
+OPERAND      =O
+VALUE        =0.85
+
+

@@ -1,0 +1,12 @@
+
+QUANTITY=frictioncoefficient
+FILENAME=AC_Final_Model_Jan2015_rgh.xyz
+FILETYPE=7
+METHOD=5
+OPERAND=O
+
+QUANTITY=windxy
+FILENAME=AC_Final_Model_Jan2015.wnd
+FILETYPE=2
+METHOD=1
+OPERAND=+

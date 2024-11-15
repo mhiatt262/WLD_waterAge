@@ -1,0 +1,49 @@
+substance 'Continuity' active
+   description        'Continuity'
+   concentration-unit '(g/m3)'
+   waste-load-unit    '-'
+end-substance
+substance 'cTR1' active
+   description        'Conservative Tracer Source 1'
+   concentration-unit '(g/m3)'
+   waste-load-unit    '-'
+end-substance
+substance 'dTR1' active
+   description        'Decayable Tracer Source 1'
+   concentration-unit '(g/m3)'
+   waste-load-unit    '-'
+end-substance
+substance 'cTR2' active
+   description        'Conservative Tracer Source 2'
+   concentration-unit '(g/m3)'
+   waste-load-unit    '-'
+end-substance
+substance 'dTR2' active
+   description        'Decayable Tracer Source 2'
+   concentration-unit '(g/m3)'
+   waste-load-unit    '-'
+end-substance
+parameter 'RcDecTR1'
+   description   'decay rate tracer1 for AGE calculations'
+   unit          '(1/d)'
+   value          0.1000E-01
+end-parameter
+parameter 'RcDecTR2'
+   description   'decay rate tracer2 for AGE calculations'
+   unit          '(1/d)'
+   value          0.1000E-01
+end-parameter
+output 'ResTim'
+   description   'residence time'
+end-output
+output 'AgeTR1'
+   description   'calculated  AGE  for water from source 1'
+end-output
+output 'AgeTR2'
+   description   'calculated  AGE  for water from source 2'
+end-output
+active-processes
+   name  'ResTim' 'Residence time'
+   name  'Age1' 'Age of water from source 1'
+   name  'Age2' 'Age of water from source 2'
+end-active-processes

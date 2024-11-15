@@ -1,0 +1,16 @@
+
+[General]
+fileVersion = 2.00
+fileType = iniField
+
+[Initial]
+quantity 		= bedlevel
+dataFile 		= AC_Final_Model_Jan2015_bed.xyz
+dataFileType 		= sample
+interpolationMethod 	= triangulation
+
+[Initial]
+quantity 		= frictioncoefficient
+dataFile 		= AC_Final_Model_Jan2015_rgh.xyz
+dataFileType 		= sample
+interpolationMethod 	= triangulation

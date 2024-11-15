@@ -1,0 +1,23 @@
+[forcing]
+Name                            = Neumann_West_0001
+Function                        = timeseries
+Time-interpolation              = linear
+Quantity                        = time
+Unit                            = seconds since 2001-01-01 00:00:00
+Quantity                        = neumannbnd
+Unit                            = -
+0        0
+5097600  0
+
+
+[forcing]
+Name                            = Neumann_East_0001
+Function                        = timeseries
+Time-interpolation              = linear
+Quantity                        = time
+Unit                            = seconds since 2001-01-01 00:00:00
+Quantity                        = neumannbnd
+Unit                            = -
+0        0
+5097600  0
+

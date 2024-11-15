@@ -1,0 +1,11 @@
+[forcing]
+Name                            = Waterlevel_ds(ocean)_0001
+Function                        = timeseries
+Time-interpolation              = linear
+Quantity                        = time
+Unit                            = seconds since 2001-01-01 00:00:00
+Quantity                        = tracerbnddTR2
+Unit                            = -
+0        100
+5097600  100
+
