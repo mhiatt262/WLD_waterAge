@@ -1,6 +1,6 @@
 This repository contains the necessary input files for running Delft3D simulations described in the paper:
 
-Jean Louis, M., and M. Hiatt, "Modeling the effects of vegetation distribution and density on hydrological connectivity and water age in a river delta" - Ecohydrology.
+Jean Louis, M., & Hiatt, M. (Year). Modeling the effects of vegetation distribution and density on hydrological connectivity and water age in a river delta. Ecohydrology. https://doi.org/10.1002/eco.2741
 
 Below is a detailed description of the files and instructions for their use.
 
