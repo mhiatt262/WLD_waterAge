@@ -1,10 +1,11 @@
+## Water Age repository 
 This repository contains the necessary input files for running Delft3D simulations described in the paper:
 
 Jean Louis, M., & Hiatt, M. (Year). Modeling the effects of vegetation distribution and density on hydrological connectivity and water age in a river delta. Ecohydrology. https://doi.org/10.1002/eco.2741
 
 Below is a detailed description of the files and instructions for their use.
 
-##Folder Structure: Model_Initiation_Files
+## Folder Structure: Model_Initiation_Files
 
 The Model_Initiation_Files folder contains six (6) subfolders, one for each scenario described in the paper (see Table 2). Each subfolder includes the following essential files:
 
@@ -14,7 +15,7 @@ dimr-config.xml: The configuration file for the Deltares Integrated Model Runner
 
 run_dimr.bat: A batch file to execute the DIMR. Double-click on this file to run the model, provided Delft3D FM is correctly installed.
 
-##Files Within the dflowfm Subfolder
+## Files Within the dflowfm Subfolder
 
 Below are the file types required to set up the model:
 
@@ -44,7 +45,7 @@ Below are the file types required to set up the model:
 
 .SH — Batch script for model partitioning and running in parallel computing environments.
 
-##How to Use
+## How to Use
 
 Clone the repository:
 
@@ -54,13 +55,13 @@ Prepare the input files:
 
 Copy the input files into the appropriate directories for each scenario.
 
-##Run the model:
+## Run the model:
 
 Use the dimr-config.xml configuration file and run_dimr.bat batch file to execute the simulations.
 
 Ensure Delft3D FM and its dependencies are correctly installed on your system.
 
-##Notes
+## Notes
 
 Dependencies: Ensure you have the required software installed, including Delft3D Flexible Mesh and Python (if needed).
 
